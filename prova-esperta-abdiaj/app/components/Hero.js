@@ -19,7 +19,6 @@ export default function Hero(props) {
       { text: "Homepage", href: "/" },
       {
         text: "Servizi",
-        href: "Servizi/",
         dropdownItems: [
           { text: "Centro Diurno 'Anchisse' ", href: "Servizi/" },
           { text: "Contro Anziani 'Colora il tuo tempo'", href: "Servizi2/" },
