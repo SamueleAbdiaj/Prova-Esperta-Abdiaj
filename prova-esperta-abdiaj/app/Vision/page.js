@@ -1,8 +1,7 @@
 
-import Navbar from '../components/Navbar';
-import Login from '../components/Login';
+import Navbar from '../components/Navbar'; 
+import V1 from '../components/V1'; 
 import Footer from '../components/Footer'; 
-
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
         <Navbar />
       </div>
       <div className=''>
-        <Login />
+        <V1 />
       </div>
       <div className=''>
         <Footer />

@@ -7,8 +7,6 @@ export default function Hero(props) {
   const {
     desktopLogo = "/images/sfondo.jpg",
     mobileLogo = "/images/herologo2.svg",
-    galleryIcon = "/images/gallery.png",
-    phoneIcon = "/images/phone.png",
     titleText = "Regione Veneto",
     requestButtonText = "Richiedi",
     bookButtonText = "Prenota",
@@ -21,21 +19,20 @@ export default function Hero(props) {
       { text: "Homepage", href: "/" },
       {
         text: "Servizi",
-        href: "/Servizi",
+        href: "Servizi/",
         dropdownItems: [
-          { text: "Centro Diurno 'Anchisse' ", href: "/servizi/servizio1" },
-          { text: "Contro Anziani 'Colora il tuo tempo'", href: "/servizi/servizio2" },
-          { text: "Servizio Di Assistenza Domiciliare S.A.D.", href: "/servizi/servizio3" },
-          { text: "Sportello Assistenti Familiari", href: "/servizi/servizio3" },
-          { text: "Punto Prelievi 'Passarella' Servizzio Infermieristico", href: "/servizi/servizio3" },
-          { text: "Servizio Di Assistenza Domiciliare S.A.D.", href: "/servizi/servizio3" },
+          { text: "Centro Diurno 'Anchisse' ", href: "Servizi/" },
+          { text: "Contro Anziani 'Colora il tuo tempo'", href: "Servizi2/" },
+          { text: "Servizio Di Assistenza Domiciliare S.A.D.", href: "Servizi3/" },
+          { text: "Sportello Assistenti Familiari", href: "Servizi4/" },
+          { text: "Punto Prelievi 'Passarella' Servizzio Infermieristico", href: "Servizi5/" },
         ],
       },
       {
         text: "Perche' L'IPAB",
         href: "/perche-ipab",
         dropdownItems: [
-          { text: "Vision e Mission", href: "/perche-ipab/mission" },
+          { text: "Vision e Mission", href: "Vision/" },
           { text: "Statuto", href: "/perche-ipab/storia" },
         ],
       },
@@ -56,12 +53,12 @@ export default function Hero(props) {
         text: "Accessi riservati",
         href: "/accessi-riservati",
         dropdownItems: [
-          { text: "Intranet Sito", href: "/accessi-riservati/utenti" },
-          { text: "Area Dipendenti", href: "/accessi-riservati/dipendenti" },
+          { text: "Intranet Sito", href: "Intranet/" },
+          { text: "Area Dipendenti", href: "/" },
         ],
       },
       { text: "Extranet", href: "Extranet/" },
-      { text: "Privacy", href: "/privacy" },
+      { text: "Privacy", href: "Privacy/" },
     ],
     colors = {
       primaryBtnBg: "#A4D7FF",

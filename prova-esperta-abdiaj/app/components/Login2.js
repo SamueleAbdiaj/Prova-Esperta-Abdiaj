@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 
-export default function Login(props) {
+export default function Login2(props) {
   const {
     titles = {
-      main: "Accedi all'Extranet",
+      main: "Accedi alla Intranet",
       alreadyAccount: "Hai già un'account?",
       // 'orRegisterWith' è stato rimosso in quanto non utilizzato nel layout corrente
     },

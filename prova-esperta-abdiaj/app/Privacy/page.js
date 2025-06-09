@@ -1,6 +1,6 @@
 
 import Navbar from '../components/Navbar';
-import Login from '../components/Login';
+import TextP from '../components/TextP';
 import Footer from '../components/Footer'; 
 
 
@@ -11,7 +11,7 @@ export default function Home() {
         <Navbar />
       </div>
       <div className=''>
-        <Login />
+        <TextP />
       </div>
       <div className=''>
         <Footer />
